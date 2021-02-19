@@ -1,0 +1,43 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+/** ESTILOS GLOBALES **/
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+}
+
+
+
+/*SITE HEADER*/
+.site-header.inicio {
+    background-image: url(../Proy_Pag/1.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 70vh;
+    min-height: 50vh;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 400px;
+}
+
+/** NAVEGACIÓN **/
+.navegacion a{
+    color: black;
+    text-decoration: solid;
+    font-size: 29px;
+    margin-right: 55px;
+}
+.navegacion a:hover {
+    color: #4F79;
+}
+.navegacion a:last-of-type {
+    margin: 0;
+}
